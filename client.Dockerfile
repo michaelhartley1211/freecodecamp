@@ -38,3 +38,6 @@ COPY --from=builder /home/node/config/client/www/ client
 
 ENTRYPOINT ["serve", "-c", "../serve.json", "client/public"]
 CMD ["-l", "8000"]
+
+
+
